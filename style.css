@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.wrap {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.wrap-left {
+  width: 200px;
+  min-height: 100vh;
+  background-color: #041527;
+  position: fixed;
+}
+
+.wrap-right {
+  width: 100%;
+  padding-left: 200px;
+}
+
+.left-item {
+  display: block;
+  text-decoration: none;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #a7a7b4;
+  cursor: pointer;
+}
+
+.flex-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+.active {
+  background-color: #4091f7;
+  color: #fff;
+}
+
+#chart-container {
+  position: relative;
+  overflow: hidden;
+  width: 50vw;
+  height: 50vh;
+  margin: 0 auto;
+}
+
+#chart-container-diff1,
+#chart-container-diff2 {
+  position: relative;
+  overflow: hidden;
+  width: 25vw;
+  height: 30vh;
+}
+
+.chart-diff {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1080px;
+}
+
+.container-table {
+  max-width: 90%;
+}
+
+.card-title {
+  font-size: 20px;
+}
+
+.select-opt {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
